@@ -1,3 +1,5 @@
+import { Reader } from './Reader/Reader';
+
 export const App = () => {
   return (
     <div
@@ -11,6 +13,8 @@ export const App = () => {
       }}
     >
       React homework template
+    <Reader/>  
+
     </div>
   );
 };
