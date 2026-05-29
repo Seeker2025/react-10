@@ -1,4 +1,5 @@
 import { Reader } from './Reader/Reader';
+import publication from '../publication.json';
 
 export const App = () => {
   return (
@@ -12,8 +13,8 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      React homework template
-    <Reader/>  
+      {/* React homework template */}
+    <Reader items={publication}/>  
 
     </div>
   );
